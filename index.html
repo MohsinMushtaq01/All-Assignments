@@ -1,11 +1,64 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSITE</title>
+    <title>Code Archive | My Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div class="hero">
+        <h1>My Development Journey <br><span>MOHSIN MUSHTAQ</span>
+
+        </h1>
+        <p>Explore my collection of web development projects</p>
+    </div>
+
+    <div class="container">
+        <div class="grid">
+            <!-- HTML Projects Card -->
+            <div class="card html-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML Assignments</h3>
+                <p>Collection of semantic markup and structure exercises</p>
+                <a href="" class="btn">View Projects</a>
+            </div>
+
+            <!-- CSS Projects Card -->
+            <div class="card css-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS Assignments</h3>
+                <p>Styling experiments and layout challenges</p>
+                <a href="#css-projects" class="btn">View Projects</a>
+            </div>
+
+            <!-- JavaScript Projects Card -->
+            <div class="card js-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript Assignments</h3>
+                <p>Interactive applications and logic implementations</p>
+                <a href="#js-projects" class="btn">View Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        // Add animation to cards on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = 1;
+                    card.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+    </script> -->
+
+
+
 </body>
 </html>
